@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/lightGrey">
+
+
+    <ImageView
+        android:id="@+id/artInstituteLogo"
+        android:layout_width="126dp"
+        android:layout_height="116dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/logo" />
+
+
+
+    <TextView
+        android:id="@+id/apiAppText"
+        android:layout_width="204dp"
+        android:layout_height="106dp"
+        android:layout_alignBaseline="@id/artInstituteLogo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginLeft="97dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="3dp"
+        android:layout_toEndOf="@+id/artInstituteLogo"
+        android:layout_toRightOf="@id/artInstituteLogo"
+        android:text="Art Institute of Chicago API App"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/black"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/copyrightTextView"
+        android:layout_width="379dp"
+        android:layout_height="598dp"
+        android:layout_below="@id/artInstituteLogo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/copyrightText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp"
+        android:text="© 2024 Tejasree Taluri"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:clickable="true"
+        android:onClick="openCopyrightActivity" />
+
+    <TextView
+        android:id="@+id/versionText"
+        android:layout_width="114dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/copyrightText"
+        android:layout_below="@+id/copyrightTextView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="24dp"
+        android:clickable="true"
+        android:onClick="openCopyrightActivity"
+        android:padding="8dp"
+        android:text="Version 1.0"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+</RelativeLayout>

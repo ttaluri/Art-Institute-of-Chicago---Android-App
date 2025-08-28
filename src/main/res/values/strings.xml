@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ArtInstituteApiApp</string>
+    <string name="close_button" />
+    <string name="art_institute_logo">Art Institute Logo</string>
+    <string name="copyright_statement">© 2024 Tejasree Taluri.</string>
+    <string name="tejasree_taluri_copyright">© 2024 Tejasree Taluri</string>
+    <string name="artwork_thumbnail_desc">Thumbnail of the artwork</string>
+
+</resources>
